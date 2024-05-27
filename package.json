@@ -9,7 +9,8 @@
     "log": "conventional-changelog --config ./node_modules/commitlint-cli/lib/log -i CHANGELOG.md -s -r 0",
     "commit": "npm run log && git add . && git-cz",
     "prepare": "husky install",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint-code": "oxlint -c ./oxlintrc.json --ignore-path=./.oxlintignore --import-plugin "
   },
   "config": {
     "commitizen": {

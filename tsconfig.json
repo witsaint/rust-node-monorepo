@@ -2,8 +2,8 @@
   "extends": "@repo/typescript-config/base.json",
   "$schema": "https://json.schemastore.org/tsconfig",
   "$comment": "The config is for pure Js projects, which are executed by Node.js directly.",
-  "include": ["packages/**/*", "./commitlint.config.cjs", "./lint-staged.common.cjs"],
-  "exclude": ["**/node_modules", "**/.*/"],
+  "include": [".", "apps/**/*", "./index.ts", "./commitlint.config.cjs", "./lint-staged.common.cjs"],
+  "exclude": ["**/node_modules"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
