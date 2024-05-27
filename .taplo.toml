@@ -1,0 +1,9 @@
+exclude = ["node_modules/**/*.toml"]
+include = [".taplo.toml", "Cargo.toml", "crates/*/*.toml"]
+
+# https://taplo.tamasfe.dev/configuration/formatter-options.html
+[formatting]
+align_entries = true
+indent_tables = true
+column_width = 120
+reorder_keys = true
