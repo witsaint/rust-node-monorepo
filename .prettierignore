@@ -1,0 +1,9 @@
+**/.git
+**/node_modules
+**/dist/
+crates
+target
+temp
+tmp
+pnpm-lock.yaml
+CHANGELOG.md
