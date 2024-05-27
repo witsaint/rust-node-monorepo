@@ -1,0 +1,12 @@
+{
+  // Comments are supported.
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "foo": "readonly"
+  },
+  "settings": {},
+  "rules": {
+  }
+}
