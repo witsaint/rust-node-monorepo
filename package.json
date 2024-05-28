@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
+    "@eslint/js": "^9.3.0",
     "@ls-lint/ls-lint": "^2.2.3",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
@@ -33,7 +34,13 @@
     "prettier": "^3.2.5",
     "shell-quote": "^1.8.1",
     "turbo": "latest",
-    "vitest": "^1.6.0"
+    "vitest": "^1.6.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {

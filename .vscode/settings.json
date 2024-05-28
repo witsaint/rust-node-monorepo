@@ -4,6 +4,16 @@
       "mode": "auto"
     }
   ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "graphql"
+  ],
   "[rust]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
@@ -49,7 +59,5 @@
     "tmp": true
   },
   "editor.wordWrap": "on",
-  "rust-analyzer.linkedProjects": [
-    "./crates/rolldown/Cargo.toml"
-  ]
+  "rust-analyzer.linkedProjects": ["./crates/rolldown/Cargo.toml"]
 }
