@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn lint-staged
-
-npm run lint-code
-npm run test
+pnpm lint-staged
+pnpm lint-code
+pnpm run test
